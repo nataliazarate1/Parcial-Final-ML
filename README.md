@@ -29,7 +29,7 @@ El propósito general no es establecer causalidad ni medir la ocurrencia real to
 - URL: https://huggingface.co/datasets/FelipeGuerra/Colombian_Spanish_Cyberbullying_Dataset_2
 - Archivo local de trabajo: `bloque3_nlp/corpus.csv`
 - Archivo auxiliar con nombre descriptivo: `bloque3_nlp/corpus_ciberacoso_colombiano.csv`
-- Registros validos usados en el notebook: 2.565 tweets
+- Registros válidos usados en el notebook: 2.565 tweets
 - Variable textual: `texto`
 - Variable objetivo: `ciberacoso`
 - Uso en el proyecto: clasificación de ciberacoso en tweets colombianos mediante TF-IDF, Regresión Logística y comparación con modelo pre-entrenado de Hugging Face.
@@ -57,7 +57,7 @@ proyecto_final_zarate/
 `-- requirements.txt
 ```
 
-## Como ejecutar
+## Cómo ejecutar
 
 ### Opción con Docker
 
