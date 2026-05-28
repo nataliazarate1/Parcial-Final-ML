@@ -1,0 +1,14 @@
+services:
+  jupyter:
+    image: jupyter/pyspark-notebook:spark-3.5.0
+    container_name: proyecto_final_pyspark
+    ports:
+      - "8889:8888"
+    volumes:
+      - .:/home/jovyan/work
+    working_dir: /home/jovyan/work
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      SPARK_HOME: "/usr/local/spark"
+      PYTHONPATH: "/usr/local/spark/python:/usr/local/spark/python/lib/py4j-0.10.9.7-src.zip"
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''
